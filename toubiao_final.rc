@@ -1,0 +1,230 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\toubiao_final.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\toubiao_final.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "版权信息"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "投标软件 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 QBH(C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TOUBIAO_FINAL_DIALOG DIALOGEX 0, 0, 344, 243
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "投标结果模拟软件"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "投标参数",IDC_STATIC,7,7,330,62
+    GROUPBOX        "输入投标价格",IDC_STATIC,7,67,101,169
+    GROUPBOX        "结果",IDC_STATIC,110,67,114,169
+    LTEXT           "抽取",IDC_STATIC,11,21,18,14
+    EDITTEXT        IDC_EDIT1,29,19,22,13,ES_AUTOHSCROLL
+    LTEXT           "家计算基准价",IDC_STATIC,55,21,57,11
+    LTEXT           "上浮1%扣分",IDC_STATIC,129,21,42,11
+    LTEXT           "下浮1%扣分",IDC_STATIC,244,21,46,11
+    EDITTEXT        IDC_EDIT2,173,18,40,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,289,18,40,13,ES_AUTOHSCROLL
+    LTEXT           "合理浮动率下限",IDC_STATIC,9,39,57,11
+    LTEXT           "合理浮动率上限",IDC_STATIC,123,40,56,10
+    EDITTEXT        IDC_EDIT4,68,37,18,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,181,37,18,13,ES_AUTOHSCROLL
+    LTEXT           "合理浮动率间隔",IDC_STATIC,234,41,56,12
+    EDITTEXT        IDC_EDIT6,292,38,18,13,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,88,39,8,8
+    LTEXT           "%",IDC_STATIC,201,40,8,8
+    LTEXT           "%",IDC_STATIC,314,39,8,8
+    EDITTEXT        IDC_EDIT7,7,78,98,158,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_EDIT8,113,89,107,147,ES_RIGHT | ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_NUMBER | WS_VSCROLL
+    PUSHBUTTON      "计算",IDC_BUTTON2,269,81,61,25
+    PUSHBUTTON      "清零",IDC_BUTTON3,269,132,61,25
+    LTEXT           "",IDC_STATIC_STATUS,268,113,66,13
+    LTEXT           "获胜几率",IDC_STATIC,178,79,39,9
+    LTEXT           "投标价格",IDC_STATIC,133,79,35,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "toubiao_final Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "toubiao_final\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "toubiao_final.EXE\0"
+            VALUE "ProductName", "toubiao_final 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TOUBIAO_FINAL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 337
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 toubiao_final(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\toubiao_final.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

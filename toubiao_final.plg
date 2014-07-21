@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: toubiao_final - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/toubiao_final.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\µ¼Ê¦\toubiao_final\toubiao_finalDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/toubiao_final.pdb" /debug /machine:I386 /out:"Debug/toubiao_final.exe" /pdbtype:sept 
+".\Debug\Helper_Function.obj"
+".\Debug\StdAfx.obj"
+".\Debug\toubiao_final.obj"
+".\Debug\toubiao_finalDlg.obj"
+".\Debug\toubiao_final.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.tmp"
+<h3>Output Window</h3>
+Compiling...
+toubiao_finalDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+toubiao_final.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
